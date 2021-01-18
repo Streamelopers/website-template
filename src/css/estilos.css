@@ -7,3 +7,16 @@
     background-color:#00AA9F;
     color:white;
 }
+
+.thumbnail{
+position: relative;
+}
+
+.caption{
+  position: absolute;
+  top: 30%;
+  left: 0;
+  width: 100%;
+  color:  #FFFFFF
+  
+}
