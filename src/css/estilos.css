@@ -17,6 +17,87 @@ position: relative;
   top: 30%;
   left: 0;
   width: 100%;
-  color:  #FFFFFF
+  color:  #FFFFFF;
   
+}
+
+.patreon-caption{
+  color: #0D2A47;
+}
+
+
+.video-head{
+  color: #0D2A47;
+}
+
+
+.video-caption{
+  color: #646566;
+  font-size: 16px;
+}
+
+.video-name{
+  color: #0D2A47;
+  font-size: 21px;
+}
+
+.blog-preview{
+  background:#aadad6 -8%;
+}
+
+.blog-heading{
+  color: #0D2A47;
+  font-size: 36px;
+}
+
+.blog-body{
+  color: #646566;
+  font-size: 16px;
+}
+
+.blog-name{
+  color: #0D2A47;
+  font-size:21px;
+}
+
+.blog-author{
+  color: #0D2A47;
+  font-size: 16px;
+}
+
+
+.community-heading{
+  color: #0D2A47;
+  font-size: 36px;
+}
+
+.community-body{
+  color: #646566;
+  font-size: 16px;
+}
+
+.oradores-preview{
+  background-color: #00AA9F;
+}
+
+.oradores-heading{
+  color: #FFFFFF;
+  font-size: 36px;
+}
+
+.oradores-body{
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+.orador-nombre{
+  margin-top: 2;
+  color: #0D2A47;
+  font-size: 24;
+}
+
+.orador-experience{
+  color: #FFFFFF;
+  font-size: 16;
+
 }
