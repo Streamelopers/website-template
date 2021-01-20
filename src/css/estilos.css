@@ -41,8 +41,13 @@ position: relative;
   font-size: 21px;
 }
 
+.video-link{
+  color: #00AA9F;
+  font-size: 18px;
+}
+
 .blog-preview{
-  background:#aadad6 -8%;
+  background:#d7fcf9 -8%;
 }
 
 .blog-heading{
@@ -63,6 +68,11 @@ position: relative;
 .blog-author{
   color: #0D2A47;
   font-size: 16px;
+}
+
+.blog-link{
+  color:#00AA9F;
+  font-size: 18px;
 }
 
 
@@ -91,7 +101,7 @@ position: relative;
 }
 
 .orador-nombre{
-  margin-top: 2;
+  
   color: #0D2A47;
   font-size: 24;
 }
@@ -100,4 +110,28 @@ position: relative;
   color: #FFFFFF;
   font-size: 16;
 
+}
+
+.oradores-link{
+  color: #FFFFFF;
+  font-size: 21px;
+}
+
+.contacto-heading{
+  color: #0D2A47;
+  font-size: 36px;
+}
+
+.contacto-body{
+  color: #646566;
+  font-size: 16px;
+}
+
+.pie-de-pagina{
+  background-color: #0D2A47;
+}
+
+.footer-caption{
+  color: #ffffff;
+  font-size: 16px;
 }

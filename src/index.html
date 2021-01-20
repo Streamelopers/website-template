@@ -3,7 +3,12 @@
     <head>
         <title>Streamelopers</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+        
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+        
+        
+        
         <link href="css/estilos.css" rel="stylesheet" />
     </head>
     <body class="p-0">
@@ -72,7 +77,7 @@
 
             </nav>
         </header>
-        <main>
+        <main>                <!-- Main Starts-->
           <div class="container" >
             <div class="row">
               <div class="thumbnail text-center">
@@ -103,7 +108,7 @@
               </div>
             </div>
           </div>
-          <div class="container">
+          <div class="container pb-5">
             <div class="row row-cols-3 mx-5 pb-5">
               <div class="col">
                 <iframe width="380" height="211" src="https://www.youtube.com/watch?v=wMHi39hRwoE"></iframe>
@@ -119,13 +124,20 @@
               </div>
               
             </div>
+
+            <div class="mx-5">
+
+              <a href="#" class="video-link">
+                <p class="text-end">Ver más videos</p>
+              </a>
+            </div>
           </div>
 
-          <div class="container blog-preview ">
+          <div class="container blog-preview pb-5">         <!--Blog Preview Starts-->
             <div class="row mx-5 ">
               <div class="blog-text">
                 <div class="blog-heading mt-5">
-                  <p>Ultimos artículos</p>
+                  <p>Últimos artículos</p>
                 </div>
                 <div class="blog-body">
                   <p>Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec<br/> 
@@ -162,9 +174,16 @@
                 
               </div>
             </div>
-          </div>
 
-          <div class="container community-preview pb-5">
+            <div class="mx-5 mt-5 ">
+
+              <a href="#" class="blog-link">
+                <p class="text-end">Ver todos los artículos</p>
+              </a>
+            </div>
+          </div>                     <!--Blog Preview Ends-->
+
+          <div class="container community-preview pb-5">     <!--Comminity Preview Starts-->
             <div class="row mx-5 pt-5 text-center">
             <div class="community-text pt-5">
               <div class="community-heading">
@@ -203,10 +222,10 @@
            </div>
            </div>
 
-          </div>
+          </div>                    <!--Community Preview Ends-->
 
 
-          <div class="container oradores-preview">
+          <div class="container oradores-preview pb-5">   <!--Inicio de Oradores preview-->
             <div class="row mx-5 pt-5 text-center">
               <div class="oradores-text pt-5">
                 <div class="oradores-heading">
@@ -257,17 +276,69 @@
                 </div>
               </div>
             </div>
-          </div>
+            <div class="mx-5 mt-5 ">
 
-         
-            
+              <a href="#" class="oradores-link">
+                <p class="text-end">Ver todos los oradores</p>
+              </a>
+            </div>
+
+          </div> <!-- Final de Oradores Preview-->
           
+          
+          <div class="container contacto-area pb-5">   <!-- Inicio de zona de contacto-->
+            <div class="row pt-5 text-center" >
+              <div class="contacto-text mt-5">
+                <div class="contacto-heading">
+                  <p>Contacto</p>
+                </div>
+                <div class="contacto-body">
+                  <p>Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec <br/>
+                    pharetra id, tempor a tortor. Pellentesque non dignissim neque.</p>
+                </div>
+              </div>
+            </div>
+            <form class="contacto-form mx-5">
+             <div class="form-floating mb-3">
+                <input type="message" class="form-control" id="inputMensaje" style="height: 134px;" placeholder="mensaje">
+                <label for="inputMensaje">Mensaje</label>
+              </div>
             
-
-        </main>
+              <div class="row g-5">
+                <div class="col-md">
+                  <div class="form-floating">
+                    <input type="email" class="form-control" id="inputNombre" placeholder="nombre" >
+                    <label for="inputNombre">Nombre</label>
+                  </div>
+                </div>
+                <div class="col-md">
+                  <div class="form-floating">
+                    <input type="email" class="form-control" id="inputCorreo" placeholder="correo" >
+                    <label for="inputCorreo">Correo electrónico</label>
+                  </div>
+                </div>
+              </div>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button type="submit" class="btn btn-primary mt-3">Enviar</button>
+              </div>
+            </form>
+          </div>                                  <!-- Zona de contacto Ends-->
+        </main>             <!-- Main Ends-->
         <footer>
+
+          <div class="container pie-de-pagina ">
+            <div class="row text-center pt-3">
+              <p class="footer-caption">Streamelopers-Todos los derechos reservados. En colaboración con October Studio.</p>
+            </div>
+
+          </div>
         
         </footer>
     </body>
+    
+    
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-</html>
+
+
+    </html>
