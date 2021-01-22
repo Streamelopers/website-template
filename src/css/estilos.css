@@ -135,3 +135,74 @@ position: relative;
   color: #ffffff;
   font-size: 16px;
 }
+
+
+
+/* Blog page style */
+
+
+.main-article-class{
+  color: #00AA9F;
+  font-size: 16px;
+}
+
+.main-article-name{
+  color: #0D2A47;
+  font-size: 48px;
+}
+
+.main-article-author{
+  color: #646566;
+  font-size: 16px;
+}
+
+.recent-articles{
+  color: #0D2A47;
+  font-size: 24px;
+}
+
+.article-class{
+  color: #00AA9F;
+  font-size: 16px;
+}
+
+.article-name{
+  color: #0D2A47 ;
+  font-size: 16px;
+}
+
+.article-author{
+  color: #646566;
+  font-size: 16px;
+}
+
+.suscribete{
+  background-color: #0D2A47;
+}
+
+.suscribete-caption{
+  color: #ffffff;
+  font-size:36px;
+}
+
+.mas-articulos-caption{
+  color: #0D2A47;
+  font-size: 36px;
+}
+
+.more-article-class{
+  color: #00AA9F;
+  font-size: 16px;
+}
+
+.more-article-name{
+  color: #0D2A47;
+  font-size: 24px;
+}
+
+.more-article-author{
+  color: #646566;
+  font-size: 16px;
+}
+
+
