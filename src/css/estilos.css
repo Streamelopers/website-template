@@ -267,3 +267,28 @@ position: relative;
   color: #646566;
   font-size: 17px;
 }
+
+
+/* Blog solo Style */
+
+.bi-person-circle{
+  font-size: 3rem;
+  color:#00AA9F;
+}
+
+
+.blog-text{
+  color: #0D2A47;
+  font-size: 21px;
+}
+
+
+.blog-compartelo{
+  color: #00AA9F;
+  font-size: 16px;
+}
+
+.logo{
+  font-size: 3rem;
+  color: #0D2A47;
+}
