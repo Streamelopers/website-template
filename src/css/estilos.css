@@ -206,3 +206,64 @@ position: relative;
 }
 
 
+/* Community page style */
+
+.community-header-title{
+  color: #0D2A47;
+  font-size: 36px;
+
+}
+
+
+.community-header-info{
+  color: #646566;
+  font-size: 16px;
+
+}
+
+.btn-search{
+  color: #ffffff;
+  background-color: #00AA9F;
+}
+
+.community-name{
+  color: #0D2A47;
+  font-size: 24px;
+}
+
+.community-links{
+  color: #646566;
+  font-size: 16px;
+}
+
+
+/* Oradores page style */
+
+.oradores-header-title{
+  color: #0D2A47;
+  font-size: 36px;
+
+
+}
+
+.oradores-header-info{
+  color: #646566;
+  font-size: 16px;
+
+}
+
+.autor-nombre{
+  color: #0D2A47;
+  font-size: 24px;
+
+}
+
+.autor-experiencia{
+  color: #00AA9F;
+  font-size: 16px;
+}
+
+.autor-bio{
+  color: #646566;
+  font-size: 17px;
+}
