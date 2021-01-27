@@ -292,3 +292,17 @@ position: relative;
   font-size: 3rem;
   color: #0D2A47;
 }
+
+
+
+/* Orador solo stile */
+
+.author-name{
+  color:#0D2A47 ;
+  font-size: 60px;
+}
+
+.author-experience{
+  color: #00AA9F;
+  font-size: 24px;
+}
