@@ -10,16 +10,30 @@
 
 .thumbnail{
 position: relative;
+max-width: 100%;
+height: auto;
+
+
 }
+
+
 
 .caption{
   position: absolute;
-  top: 30%;
+  top: 50%;
   left: 0;
   width: 100%;
   color:  #FFFFFF;
   
 }
+
+.patreon-area{
+  margin-top: -6rem !important;
+  position: relative;
+  background-color: #ffffff;
+  
+}
+
 
 .patreon-caption{
   color: #0D2A47;
