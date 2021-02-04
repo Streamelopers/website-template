@@ -187,6 +187,11 @@ height: auto;
 .article-name{
   color: #0D2A47 ;
   font-size: 16px;
+  display: -webkit-box;
+   -webkit-line-clamp: 2;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+   text-overflow: ellipsis;
 }
 
 .article-author{
@@ -307,7 +312,7 @@ height: auto;
 }
 
 .logo{
-  font-size: 3rem;
+  font-size: 2rem;
   color: #0D2A47;
 }
 
