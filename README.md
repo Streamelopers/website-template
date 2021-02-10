@@ -1,12 +1,18 @@
 # website-template
 El maquetado del html del sitio web.
 
-![Index page](screenshots/index.png)
+![Index page](screenshots/index.jpg)
 
-![Comunidades preview](screenshots/comunidades.png)
+![Comunidades page](screenshots/comunidades.jpg)
 
-![Oradores page](screenshots/oradores_page.png)
+![Blog page](screenshots/blog.jpg)
 
-![Blog page](screenshots/blog_page.png)
+![Blog solo](screenshots/blog_solo.jpg)
 
-![Comunidades page](screenshots/comunidades_page.png) 
+![Oradores page](screenshots/oradores.jpg) 
+
+![Oradores cuadricula ](screenshots/oradores_cuadricula.jpg) 
+
+![Orador solo ](screenshots/orador_solo.jpg)
+
+
