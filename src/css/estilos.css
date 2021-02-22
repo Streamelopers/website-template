@@ -2,9 +2,7 @@
 
 /* index */
 
-.bi-play-fill{
-  font-size: 1rem; ;
-}
+
 
 section {
   min-height:450px;
@@ -48,12 +46,16 @@ opacity: 0.5;
 z-index: 1;
 }
 
+/*
+
 body, p, h1, h2, h3, h4, h5
 {
   font-family: Poppins !important;
   text-transform: none;
   
 }
+
+*/
 
 .live-announcement{
   background-color: #0D2A47;
