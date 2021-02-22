@@ -2,6 +2,10 @@
 
 /* index */
 
+.bi-play-fill{
+  font-size: 1rem; ;
+}
+
 section {
   min-height:450px;
 }
