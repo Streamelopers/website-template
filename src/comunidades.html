@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
-        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,600,700,800&subset=latin-ext"/>
         <link href="css/estilos.css" rel="stylesheet" />
 
     </head>
@@ -13,28 +13,31 @@
         <header>
             <!-- Live announcement-->
             <div class="live-announcement p-2">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-6">
-                            <b>Transmitiendo en vivo</b> Lissa Ng Sang - Entrevista farandulera S02E09
-                        </div>
-                        <div class="col-3">
-                            <b>Tiempo transmitiendo</b> 00:49 minutos
-                        </div>
+              <div class="container">
+                <marquee behavior="scroll" direction="left">
+                  <div class="row">
+                      <div class="col-6 pt-2">
+                          <b>Transmitiendo en vivo:</b> Lissa Ng Sang - Entrevista farandulera S02E09
+                      </div>
+                      <div class="col-3 pt-2">
+                          <b>Tiempo transmitiendo</b> 00:49 minutos
+                      </div>
 
-                        <div class="col-3 text-end">
-                            <a href="#" class="btn btn-watch-now">Míralo antes que termine</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                      <div class="col-3 text-end ">
+                          <a href="#" class="btn btn-danger"><i class="bi bi-play-fill"></i> Míralo antes que termine</a>
+                      </div>
+                  </div>
+                </marquee>
+                  
+              </div>
+          </div>
             <!-- Live annoucemnet ends-->
 
             <!-- Navbar Starts-->
             <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-static-top">  <!-- Navbar Starts-->
                 <div class="container">
                   <a class="navbar-brand" href="#">
-                    <img src="img/logo.png" alt="Streamelopers" width="250">
+                    <img src="img/logo/logo.png" alt="Streamelopers" width="250">
                   </a>
                    
                     <ul class="navbar-nav d-flex mb-2 mb-lg-0 ">
@@ -87,9 +90,9 @@
           <div class="community-header pt-5 pb-5">
             <div class="container">
               <div class="row text-center">
-                <p class="community-header-title">Comunidades</p>
-                <p class="community-header-info">Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec 
-                  <br/>pharetra id, tempor a tortor. Pellentesque non dignissim neque. </p>
+                <h1 class="community-header-title">Comunidades</h1>
+                <h6 class="community-header-info">Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec 
+                  <br/>pharetra id, tempor a tortor. Pellentesque non dignissim neque. </h6>
                   
               </div>
 
@@ -98,42 +101,46 @@
 
               <div class="row row-cols-3 gx-1 pb-5 pt-5">
                 <div class="col ">
-                  <img src="img/barcamp.png" width="418" height="260" class=" shadow p-3 mb-3  bg-white rounded"/>
+                  <img src="img/comunidades/barcamp.png" width="418" height="260" class=" shadow p-3 mb-3  bg-white rounded"/>
                   <div class="community-name">
-                    Nombre
+                    <h3>Nombre</h3>
                   </div>
                   <div class="community-links">
-                    <p> <i class="bi bi-instagram"></i> @comunidadrd<br/>
-                      <i class="bi bi-link-45deg"></i> www.paginaweb.com<br/>
-                      <i class="bi bi-facebook"></i> Facebook
-                  </p>
+                    <h6> 
+                      <a href="#"><i class="bi bi-instagram logo"></i></a> 
+                      <a href="#"><i class="bi bi-link-45deg logo"></i></a> 
+                      <a href="#"><i class="bi bi-facebook logo" ></i></a>
+                    </h6>
+                    
                   </div>
                 </div>
                 <div class="col">
-                  <img src="img/barcamp.png" width="418" height="260" class=" shadow p-3 mb-3  bg-white rounded"/>
+                  <img src="img/comunidades/barcamp.png" width="418" height="260" class=" shadow p-3 mb-3  bg-white rounded"/>
                   <div class="community-name">
-                    Nombre
+                    <h3>Nombre</h3>
                   </div>
                   <div class="community-links">
-                    <p> <i class="bi bi-instagram"></i> @comunidadrd<br/>
-                      <i class="bi bi-link-45deg"></i> www.paginaweb.com<br/>
-                      <i class="bi bi-facebook"></i> Facebook
-                  </p>
+                    <h6> 
+                      <a href="#"><i class="bi bi-instagram logo"></i></a> 
+                      <a href="#"><i class="bi bi-link-45deg logo"></i></a> 
+                      <a href="#"><i class="bi bi-facebook logo" ></i></a>
+                    </h6>
                   </div>
                   
                   
                   
                 </div>
                 <div class="col">
-                  <img src="img/barcamp.png" width="418" height="260" class=" shadow p-3 mb-3  bg-white rounded"/>
+                  <img src="img/comunidades/barcamp.png" width="418" height="260" class=" shadow p-3 mb-3  bg-white rounded"/>
                   <div class="community-name">
-                    Nombre
+                    <h3>Nombre</h3>
                   </div>
                   <div class="community-links">
-                    <p> <i class="bi bi-instagram"></i> @comunidadrd<br/>
-                      <i class="bi bi-link-45deg"></i> www.paginaweb.com<br/>
-                      <i class="bi bi-facebook"></i> Facebook
-                  </p>
+                    <h6> 
+                      <a href="#"><i class="bi bi-instagram logo"></i></a> 
+                      <a href="#"><i class="bi bi-link-45deg logo"></i></a> 
+                      <a href="#"><i class="bi bi-facebook logo" ></i></a>
+                    </h6>
                   </div>
                   
                 </div>
@@ -142,87 +149,42 @@
 
               <div class="row row-cols-3 gx-1 pb-5">
                 <div class="col ">
-                  <img src="img/barcamp.png" width="418" height="260" class=" shadow p-3 mb-3  bg-white rounded"/>
+                  <img src="img/comunidades/barcamp.png" width="418" height="260" class=" shadow p-3 mb-3  bg-white rounded"/>
                   <div class="community-name">
-                    Nombre
+                    <h3>Nombre</h3>
                   </div>
                   <div class="community-links">
-                    <p> <i class="bi bi-instagram"></i> @comunidadrd<br/>
-                      <i class="bi bi-link-45deg"></i> www.paginaweb.com<br/>
-                      <i class="bi bi-facebook"></i> Facebook
-                  </p>
+                    <h6> 
+                      <a href="#"><i class="bi bi-instagram logo"></i></a> 
+                      <a href="#"><i class="bi bi-link-45deg logo"></i></a> 
+                      <a href="#"><i class="bi bi-facebook logo" ></i></a>
+                    </h6>
                   </div>
                 </div>
                 <div class="col">
-                  <img src="img/barcamp.png" width="418" height="260" class=" shadow p-3 mb-3  bg-white rounded"/>
+                  <img src="img/comunidades/barcamp.png" width="418" height="260" class=" shadow p-3 mb-3  bg-white rounded"/>
                   <div class="community-name">
-                    Nombre
+                    <h3>Nombre</h3>
                   </div>
                   <div class="community-links">
-                    <p> <i class="bi bi-instagram"></i> @comunidadrd<br/>
-                      <i class="bi bi-link-45deg"></i> www.paginaweb.com<br/>
-                      <i class="bi bi-facebook"></i> Facebook
-                  </p>
-                  </div>
-                  
-                  
-                  
-                </div>
-                <div class="col">
-                  <img src="img/barcamp.png" width="418" height="260" class=" shadow p-3 mb-3  bg-white rounded"/>
-                  <div class="community-name">
-                    Nombre
-                  </div>
-                  <div class="community-links">
-                    <p> <i class="bi bi-instagram"></i> @comunidadrd<br/>
-                      <i class="bi bi-link-45deg"></i> www.paginaweb.com<br/>
-                      <i class="bi bi-facebook"></i> Facebook
-                  </p>
-                  </div>
-                  
-                </div>
-
-              </div>
-
-
-              <div class="row row-cols-3 gx-1 pb-5">
-                <div class="col ">
-                  <img src="img/barcamp.png" width="418" height="260" class=" shadow p-3 mb-3  bg-white rounded"/>
-                  <div class="community-name">
-                    Nombre
-                  </div>
-                  <div class="community-links">
-                    <p> <i class="bi bi-instagram"></i> @comunidadrd<br/>
-                      <i class="bi bi-link-45deg"></i> www.paginaweb.com<br/>
-                      <i class="bi bi-facebook"></i> Facebook
-                  </p>
+                    <h6> 
+                      <a href="#"><i class="bi bi-instagram logo"></i></a> 
+                      <a href="#"><i class="bi bi-link-45deg logo"></i></a> 
+                      <a href="#"><i class="bi bi-facebook logo" ></i></a>
+                    </h6>
                   </div>
                 </div>
                 <div class="col">
-                  <img src="img/barcamp.png" width="418" height="260" class=" shadow p-3 mb-3  bg-white rounded"/>
+                  <img src="img/comunidades/barcamp.png" width="418" height="260" class=" shadow p-3 mb-3  bg-white rounded"/>
                   <div class="community-name">
-                    Nombre
+                    <h3>Nombre</h3>
                   </div>
                   <div class="community-links">
-                    <p> <i class="bi bi-instagram"></i> @comunidadrd<br/>
-                      <i class="bi bi-link-45deg"></i> www.paginaweb.com<br/>
-                      <i class="bi bi-facebook"></i> Facebook
-                  </p>
-                  </div>
-                  
-                  
-                  
-                </div>
-                <div class="col">
-                  <img src="img/barcamp.png" width="418" height="260" class=" shadow p-3 mb-3  bg-white rounded"/>
-                  <div class="community-name">
-                    Nombre
-                  </div>
-                  <div class="community-links">
-                    <p> <i class="bi bi-instagram"></i> @comunidadrd<br/>
-                      <i class="bi bi-link-45deg"></i> www.paginaweb.com<br/>
-                      <i class="bi bi-facebook"></i> Facebook
-                  </p>
+                    <h6> 
+                      <a href="#"><i class="bi bi-instagram logo"></i></a> 
+                      <a href="#"><i class="bi bi-link-45deg logo"></i></a> 
+                      <a href="#"><i class="bi bi-facebook logo" ></i></a>
+                    </h6>
                   </div>
                   
                 </div>
@@ -232,42 +194,94 @@
 
               <div class="row row-cols-3 gx-1 pb-5">
                 <div class="col ">
-                  <img src="img/barcamp.png" width="418" height="260" class=" shadow p-3 mb-3  bg-white rounded"/>
+                  <img src="img/comunidades/barcamp.png" width="418" height="260" class=" shadow p-3 mb-3  bg-white rounded"/>
                   <div class="community-name">
-                    Nombre
+                    <h3>Nombre</h3>
                   </div>
                   <div class="community-links">
-                    <p> <i class="bi bi-instagram"></i> @comunidadrd<br/>
-                      <i class="bi bi-link-45deg"></i> www.paginaweb.com<br/>
-                      <i class="bi bi-facebook"></i> Facebook
-                  </p>
+                    <h6> 
+                      <a href="#"><i class="bi bi-instagram logo"></i></a> 
+                      <a href="#"><i class="bi bi-link-45deg logo"></i></a> 
+                      <a href="#"><i class="bi bi-facebook logo" ></i></a>
+                    </h6>
                   </div>
                 </div>
                 <div class="col">
-                  <img src="img/barcamp.png" width="418" height="260" class=" shadow p-3 mb-3  bg-white rounded"/>
+                  <img src="img/comunidades/barcamp.png" width="418" height="260" class=" shadow p-3 mb-3  bg-white rounded"/>
                   <div class="community-name">
-                    Nombre
+                    <h3>Nombre</h3>
                   </div>
                   <div class="community-links">
-                    <p> <i class="bi bi-instagram"></i> @comunidadrd<br/>
-                      <i class="bi bi-link-45deg"></i> www.paginaweb.com<br/>
-                      <i class="bi bi-facebook"></i> Facebook
-                  </p>
+                    <h6> 
+                      <a href="#"><i class="bi bi-instagram logo"></i></a> 
+                      <a href="#"><i class="bi bi-link-45deg logo"></i></a> 
+                      <a href="#"><i class="bi bi-facebook logo" ></i></a>
+                    </h6>
                   </div>
                   
                   
                   
                 </div>
                 <div class="col">
-                  <img src="img/barcamp.png" width="418" height="260" class=" shadow p-3 mb-3  bg-white rounded"/>
+                  <img src="img/comunidades/barcamp.png" width="418" height="260" class=" shadow p-3 mb-3  bg-white rounded"/>
+                  <div class="community-name">
+                    <h3>Nombre</h3>
+                  </div>
+                  <div class="community-links">
+                    <h6> 
+                      <a href="#"><i class="bi bi-instagram logo"></i></a> 
+                      <a href="#"><i class="bi bi-link-45deg logo"></i></a> 
+                      <a href="#"><i class="bi bi-facebook logo" ></i></a>
+                    </h6>
+                  
+                  </div>
+                  
+                </div>
+
+              </div>
+
+
+              <div class="row row-cols-3 gx-1 pb-5">
+                <div class="col ">
+                  <img src="img/comunidades/barcamp.png" width="418" height="260" class=" shadow p-3 mb-3  bg-white rounded"/>
+                  <div class="community-name">
+                    <h3>Nombre</h3>
+                  </div>
+                  <div class="community-links">
+                    <h6> 
+                      <a href="#"><i class="bi bi-instagram logo"></i></a> 
+                      <a href="#"><i class="bi bi-link-45deg logo"></i></a> 
+                      <a href="#"><i class="bi bi-facebook logo" ></i></a>
+                    </h6>
+                  </div>
+                </div>
+                <div class="col">
+                  <img src="img/comunidades/barcamp.png" width="418" height="260" class=" shadow p-3 mb-3  bg-white rounded"/>
                   <div class="community-name">
                     Nombre
                   </div>
                   <div class="community-links">
-                    <p> <i class="bi bi-instagram"></i> @comunidadrd<br/>
-                      <i class="bi bi-link-45deg"></i> www.paginaweb.com<br/>
-                      <i class="bi bi-facebook"></i> Facebook
-                  </p>
+                    <h6> 
+                      <a href="#"><i class="bi bi-instagram logo"></i></a> 
+                      <a href="#"><i class="bi bi-link-45deg logo"></i></a> 
+                      <a href="#"><i class="bi bi-facebook logo" ></i></a>
+                    </h6>
+                  </div>
+                  
+                  
+                  
+                </div>
+                <div class="col">
+                  <img src="img/comunidades/barcamp.png" width="418" height="260" class=" shadow p-3 mb-3  bg-white rounded"/>
+                  <div class="community-name">
+                    Nombre
+                  </div>
+                  <div class="community-links">
+                    <h6> 
+                      <a href="#"><i class="bi bi-instagram logo"></i></a> 
+                      <a href="#"><i class="bi bi-link-45deg logo"></i></a> 
+                      <a href="#"><i class="bi bi-facebook logo" ></i></a>
+                    </h6>
                   </div>
                   
                 </div>

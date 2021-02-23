@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
-        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,600,700,800&subset=latin-ext"/>
         <link href="css/estilos.css" rel="stylesheet" />
 
     </head>
@@ -13,28 +13,31 @@
         <header>
             <!-- Live announcement-->
             <div class="live-announcement p-2">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-6">
-                            <b>Transmitiendo en vivo</b> Lissa Ng Sang - Entrevista farandulera S02E09
-                        </div>
-                        <div class="col-3">
-                            <b>Tiempo transmitiendo</b> 00:49 minutos
-                        </div>
+              <div class="container">
+                <marquee behavior="scroll" direction="left">
+                  <div class="row">
+                      <div class="col-6 pt-2">
+                          <b>Transmitiendo en vivo:</b> Lissa Ng Sang - Entrevista farandulera S02E09
+                      </div>
+                      <div class="col-3 pt-2">
+                          <b>Tiempo transmitiendo</b> 00:49 minutos
+                      </div>
 
-                        <div class="col-3 text-end">
-                            <a href="#" class="btn btn-watch-now">Míralo antes que termine</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                      <div class="col-3 text-end ">
+                          <a href="#" class="btn btn-danger"><i class="bi bi-play-fill"></i> Míralo antes que termine</a>
+                      </div>
+                  </div>
+                </marquee>
+                  
+              </div>
+          </div>
             <!-- Live annoucemnet ends-->
 
             <!-- Navbar Starts-->
             <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-static-top">  <!-- Navbar Starts-->
                 <div class="container">
                   <a class="navbar-brand" href="#">
-                    <img src="img/logo.png" alt="Streamelopers" width="250">
+                    <img src="img/logo/logo.png" alt="Streamelopers" width="250">
                   </a>
                    
                     <ul class="navbar-nav d-flex mb-2 mb-lg-0 ">
@@ -88,9 +91,9 @@
           <div class="oradores-header pt-5 pb-5">
             <div class="container ">
               <div class="row text-center mx-5">
-                <p class="oradores-header-title">Oradores</p>
-                <p class="oradores-header-info">Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec 
-                  <br/>pharetra id, tempor a tortor. Pellentesque non dignissim neque. </p>
+                <h1 class="oradores-header-title">Oradores</h1>
+                <h6 class="oradores-header-info">Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec 
+                  <br/>pharetra id, tempor a tortor. Pellentesque non dignissim neque. </h6>
                   
               </div>
 
@@ -101,74 +104,74 @@
           <div class="container ">
             <div class="row gy-2 align-items-center pb-5">
               <div class="col-3 text-center">
-                <img src="img/orador.jpg" class="rounded-circle" width="250px" height="250px" />
+                <img src="img/oradores/orador.jpg" class="rounded-circle" width="250px" height="250px" />
                 <a href="#" class="btn btn-watch-now mt-3">Ver sus videos</a>
               </div>
 
               <div class="col-9 align-self-center">
-                <p class="autor-bio mt-4 ">Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec pharetra id, 
+                <h6 class="autor-bio mt-4 ">Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec pharetra id, 
                   tempor a tortor. Pellentesque non dignissim neque. Ut porta viverra est, ut dignissim elit elementum ut. Nunc vel 
                   rhoncus nibh, ut tincidunt turpis. Integer ac enim pellentesque, adipiscing metus id, pharetra odio. Donec bibendum 
                   nunc sit amet tortor scelerisque luctus et sit amet mauris. Suspendisse felis sem, condimentum ullamcorper est sit amet, 
                   molestie mollis nulla. Etiam lorem orci, consequat ac magna quis, facilisis vehicula neque.
-                </p>
-                <div class="autor-nombre mt-4">Russell Perry</div>
-                <div class="autor-experiencia">Backend Developer</div>
+                </h6>
+                <div class="autor-nombre mt-4"><h3>Russell Perry</h3></div>
+                <div class="autor-experiencia"><h6>Backend Developer</h6></div>
               </div>
             </div>
 
 
             <div class="row gy-2  align-items-center pb-5">
               <div class="col-3 text-center">
-                <img src="img/orador.jpg" class="rounded-circle"  width="250px" height="250px"/>
+                <img src="img/oradores/orador.jpg" class="rounded-circle"  width="250px" height="250px"/>
                 <a href="#" class="btn btn-watch-now mt-3">Ver sus videos</a>
               </div>
 
               <div class="col-9 align-self-center">
-                <p class="autor-bio mt-4 ">Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec pharetra id, 
+                <h6 class="autor-bio mt-4 ">Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec pharetra id, 
                   tempor a tortor. Pellentesque non dignissim neque. Ut porta viverra est, ut dignissim elit elementum ut. Nunc vel 
                   rhoncus nibh, ut tincidunt turpis. Integer ac enim pellentesque, adipiscing metus id, pharetra odio. Donec bibendum 
                   nunc sit amet tortor scelerisque luctus et sit amet mauris. Suspendisse felis sem, condimentum ullamcorper est sit amet, 
                   molestie mollis nulla. Etiam lorem orci, consequat ac magna quis, facilisis vehicula neque.
-                </p>
-                <div class="autor-nombre mt-4">Russell Perry</div>
-                <div class="autor-experiencia">Backend Developer</div>
+                </h6>
+                <div class="autor-nombre mt-4"><h3>Russell Perry</h3></div>
+                <div class="autor-experiencia"><h6>Backend Developer</h6></div>
               </div>
             </div>
 
             <div class="row gy-2 align-items-center pb-5">
               <div class="col-3 text-center">
-                <img src="img/orador.jpg" class="rounded-circle"  width="250px" height="250px"/>
+                <img src="img/oradores/orador.jpg" class="rounded-circle"  width="250px" height="250px"/>
                 <a href="#" class="btn btn-watch-now mt-3">Ver sus videos</a>
               </div>
 
               <div class="col-9 align-self-center">
-                <p class="autor-bio mt-4 ">Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec pharetra id, 
+                <h6 class="autor-bio mt-4 ">Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec pharetra id, 
                   tempor a tortor. Pellentesque non dignissim neque. Ut porta viverra est, ut dignissim elit elementum ut. Nunc vel 
                   rhoncus nibh, ut tincidunt turpis. Integer ac enim pellentesque, adipiscing metus id, pharetra odio. Donec bibendum 
                   nunc sit amet tortor scelerisque luctus et sit amet mauris. Suspendisse felis sem, condimentum ullamcorper est sit amet, 
                   molestie mollis nulla. Etiam lorem orci, consequat ac magna quis, facilisis vehicula neque.
-                </p>
-                <div class="autor-nombre mt-4">Russell Perry</div>
-                <div class="autor-experiencia">Backend Developer</div>
+                </h6>
+                <div class="autor-nombre mt-4"><h3>Russell Perry</h3></div>
+                <div class="autor-experiencia"><h6>Backend Developer</h6></div>
               </div>
             </div>
 
             <div class="row gy-2 align-items-center pb-5">
               <div class="col-3 text-center">
-                <img src="img/orador.jpg" class="rounded-circle"  width="250px" height="250px"/>
+                <img src="img/oradores/orador.jpg" class="rounded-circle"  width="250px" height="250px"/>
                 <a href="#" class="btn btn-watch-now mt-3">Ver sus videos</a>
               </div>
 
               <div class="col-9 align-self-center">
-                <p class="autor-bio mt-4 ">Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec pharetra id, 
+                <h6 class="autor-bio mt-4 ">Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec pharetra id, 
                   tempor a tortor. Pellentesque non dignissim neque. Ut porta viverra est, ut dignissim elit elementum ut. Nunc vel 
                   rhoncus nibh, ut tincidunt turpis. Integer ac enim pellentesque, adipiscing metus id, pharetra odio. Donec bibendum 
                   nunc sit amet tortor scelerisque luctus et sit amet mauris. Suspendisse felis sem, condimentum ullamcorper est sit amet, 
                   molestie mollis nulla. Etiam lorem orci, consequat ac magna quis, facilisis vehicula neque.
-                </p>
-                <div class="autor-nombre mt-4">Russell Perry</div>
-                <div class="autor-experiencia">Backend Developer</div>
+                </h6>
+                <div class="autor-nombre mt-4"><h3>Russell Perry</h3></div>
+                <div class="autor-experiencia"><h6>Backend Developer</h6></div>
               </div>
             </div>
 

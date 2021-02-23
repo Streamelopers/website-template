@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
-        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,600,700,800&subset=latin-ext"/>
         <link href="css/estilos.css" rel="stylesheet" />
 
     </head>
@@ -14,18 +14,21 @@
             <!-- Live announcement-->
             <div class="live-announcement p-2">
                 <div class="container">
+                  <marquee behavior="scroll" direction="left">
                     <div class="row">
-                        <div class="col-6">
-                            <b>Transmitiendo en vivo</b> Lissa Ng Sang - Entrevista farandulera S02E09
+                        <div class="col-6 pt-2">
+                            <b>Transmitiendo en vivo:</b> Lissa Ng Sang - Entrevista farandulera S02E09
                         </div>
-                        <div class="col-3">
+                        <div class="col-3 pt-2">
                             <b>Tiempo transmitiendo</b> 00:49 minutos
                         </div>
 
-                        <div class="col-3 text-end">
-                            <a href="#" class="btn btn-watch-now">Míralo antes que termine</a>
+                        <div class="col-3 text-end ">
+                            <a href="#" class="btn btn-danger"><i class="bi bi-play-fill"></i> Míralo antes que termine</a>
                         </div>
                     </div>
+                  </marquee>
+                    
                 </div>
             </div>
             <!-- Live annoucemnet ends-->
@@ -34,7 +37,7 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-static-top">  <!-- Navbar Starts-->
                 <div class="container">
                   <a class="navbar-brand" href="#">
-                    <img src="img/logo.png" alt="Streamelopers" width="250">
+                    <img src="img/logo/logo.png" alt="Streamelopers" width="250">
                   </a>
                    
                     <ul class="navbar-nav d-flex mb-2 mb-lg-0 ">
@@ -83,19 +86,19 @@
         </header>
         <main>
             <div class="container gy-5 pt-5">
-                <img src="img/blog_port.png"  class="img-fluid pb-3" width="1319" height="500">
+                <img src="img/articulos/blog_port.png"  class="img-fluid pb-3" width="1319" height="500">
                 <div class="row justify-content-center">
                     <div class="col-7 ">
-                        <div class="main-article-class">Productividad</div>
-                        <div class="main-article-name">Construyendo Sueños a través de Equipos</div>
+                        <div class="main-article-class"><h6>Productividad</h6></div>
+                        <div class="main-article-name"><h1>Construyendo Sueños a través de Equipos</h1></div>
                         <div class="row row-cols-2 ">
                             <div class="col ">
                                 
-                                <p class="text-start main-article-author"><img src="img/profile_photo.jpeg" width="50xp" class="rounded-circle img-fluid"/>  Mirierci Gonzales</p>
+                                <h6 class="text-start main-article-author"><img src="img/oradores/profile_photo.jpeg" width="50xp" class="rounded-circle img-fluid"/>  Mirierci Gonzales</h6>
      
                             </div>
                             <div class="col text-end">
-                                <p class="text-end blog-compartelo"><i class="bi bi-linkedin logo p-2"></i><i class="bi bi-facebook logo p-2"></i><i class="bi bi-twitter logo"></i></p>
+                                <p class="text-end blog-compartelo"><i class="bi bi-instagram logo p-1"></i> <i class="bi bi-linkedin logo p-1"></i><i class="bi bi-facebook logo p-1"></i><i class="bi bi-twitter logo p-1"></i></p>
                             </div>
 
                         </div>
@@ -174,8 +177,10 @@
             <div class="suscribete">
                 <div class="container  pb-5">
                   <div class="suscribete-caption  pt-5">
-                      Suscríbete y recibe artículos muy <br/> 
-                      interesantes cada semana
+                        <h1>
+                            Suscríbete y recibe artículos muy <br/> 
+                            interesantes cada semana
+                        </h1>
                   </div>
       
                   <form class="row row-cols-3 g-3 mt-4 justify-content-start">
@@ -195,28 +200,28 @@
 
             <div class="container mas-articulos pt-5 pb-5">
                 <div class="mas-articulos-caption  pt-5 gx-2">
-                    <b>Más artículos</b>
+                    <h1>Más artículos</h1>
                 </div>
 
                 <div class="row row-cols-3  mt-5 pb-5">
                     <div class="col align-self-center">
-                        <img src="img/blogImage.png"  class="img-fluid mb-2">
-                        <div class="mb-1 more-article-class">Productividad</div>
-                        <div class="mb-1 more-article-name">Cómo manejar tus repositorios con GitHub Desktop</div>
-                        <div class="mb-1 more-article-author"><img src="img/profile_photo.jpeg" width="50xp" class="rounded-circle img-fluid"/></i> Ivana Calderon</div>
+                        <img src="img/articulos/blogImage.png" class="img-fluid mb-2">
+                        <div class="mb-1 more-article-class"><h6>Productividad</h6></div>
+                        <div class="mb-1 more-article-name"><h3>Cómo manejar tus repositorios con GitHub Desktop</h3></div>
+                        <div class="mb-1 more-article-author"><h6><img src="img/oradores/profile_photo.jpeg" width="50xp" class="rounded-circle img-fluid"/></i> Ivana Calderon</h6></div>
 
                     </div>
                     <div class="col">
-                        <img src="img/blogImage.png" class="img-fluid mb-2">
-                        <div class="mb-1 more-article-class">Productividad</div>
-                        <div class="mb-1 more-article-name">Cómo manejar tus repositorios con GitHub Desktop</div>
-                        <div class="mb-1 more-article-author"><img src="img/profile_photo.jpeg" width="50xp" class="rounded-circle img-fluid"/></i> Ivana Calderon</div>
+                        <img src="img/articulos/blogImage.png" class="img-fluid mb-2">
+                        <div class="mb-1 more-article-class"><h6>Productividad</h6></div>
+                        <div class="mb-1 more-article-name"><h3>Cómo manejar tus repositorios con GitHub Desktop</h3></div>
+                        <div class="mb-1 more-article-author"><h6><img src="img/oradores/profile_photo.jpeg" width="50xp" class="rounded-circle img-fluid"/></i> Ivana Calderon</h6></div>
                     </div>
                     <div class="col">
-                        <img src="img/blogImage.png" class="img-fluid mb-2">
-                        <div class="mb-1 more-article-class">Productividad</div>
-                        <div class="mb-1 more-article-name">Cómo manejar tus repositorios con GitHub Desktop</div>
-                        <div class="mb-1 more-article-author"><img src="img/profile_photo.jpeg" width="50xp" class="rounded-circle img-fluid"/></i> Ivana Calderon</div>
+                        <img src="img/articulos/blogImage.png" class="img-fluid mb-2">
+                        <div class="mb-1 more-article-class"><h6>Productividad</h6></div>
+                        <div class="mb-1 more-article-name"><h3>Cómo manejar tus repositorios con GitHub Desktop</h3></div>
+                        <div class="mb-1 more-article-author"><h6><img src="img/oradores/profile_photo.jpeg" width="50xp" class="rounded-circle img-fluid"/></i> Ivana Calderon</h6></div>
                     </div>
                 </div>
 
